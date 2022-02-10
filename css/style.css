@@ -9,17 +9,19 @@ body {
     background-image: url(/images/design/body-final.png);
 }
 
-html{scroll-behavior:smooth}
+html {
+    scroll-behavior: smooth
+}
 
 /* Navigation */
 
 .navbar {
     width: 100%;
-    display:flex;
+    display: flex;
     align-items: center;
     background-color: #B1A29D;
     position: fixed;
-    top:0;
+    top: 0;
     z-index: 20;
 }
 
@@ -74,19 +76,22 @@ nav ul li a:hover {
 .intro-text {
     padding-top: 10px;
     display: flex;
-    flex-flow:wrap;
+    flex-flow: wrap;
     justify-content: center;
     align-items: center;
 }
+
 .intro-text hr {
     width: 100%;
     border: none;
 }
+
 .intro-text h1 {
     font-size: 36px;
     text-decoration: underline;
     text-align: center;
 }
+
 .intro-text h2 {
     margin-top: 20px;
     text-align: center;
@@ -106,7 +111,7 @@ nav ul li a:hover {
     color: #000;
     justify-content: center;
     font-size: 36px;
-    display:block;
+    display: block;
     text-align: center;
     padding-top: 15%;
     transition: 0.8s;
@@ -121,7 +126,7 @@ nav ul li a:hover {
 
 .store-content-slider-buttons {
     width: 100%;
-    display:flex;
+    display: flex;
     justify-content: flex-start;
     margin-left: 7.8%;
     margin-bottom: 2%;
@@ -134,7 +139,7 @@ nav ul li a:hover {
     text-decoration: none;
     font-size: 1rem;
     font-style: inherit;
-    border:none;
+    border: none;
     background: none;
 }
 
@@ -161,7 +166,7 @@ nav ul li a:hover {
 
 
 .wmns-buttons {
-    display:flex;
+    display: flex;
     flex-direction: column;
     width: 50px;
     margin-left: 2%;
@@ -180,12 +185,12 @@ nav ul li a:hover {
 
 .demo-current {
     border-left: 2.5px solid black;
-    font-size:24px;
+    font-size: 24px;
 }
 
 .demo:hover {
     border-left: 2.5px solid black;
-    font-size:24px;
+    font-size: 24px;
     cursor: pointer;
     transition: 0.2s;
     text-decoration: underline;
@@ -198,11 +203,11 @@ nav ul li a:hover {
 
 /* Air Jordan 1  */
 
-.wmns-first-text h2{
+.wmns-first-text h2 {
     text-align: left;
     font-size: 72px;
     font-weight: bold;
-    font-style:'Inter', sans-serif;
+    font-style: 'Inter', sans-serif;
 }
 
 .wmns-first-text p {
@@ -217,7 +222,7 @@ nav ul li a:hover {
 }
 
 .add-button {
-    display:flex;
+    display: flex;
     margin-top: 10px;
 }
 
@@ -228,6 +233,7 @@ nav ul li a:hover {
     align-self: center;
     font-weight: bold;
 }
+
 .air-jordan-add {
     width: 120px;
     height: 35px;
@@ -260,7 +266,7 @@ nav ul li a:hover {
 }
 
 
-.wmns-row > .wmns-column {
+.wmns-row>.wmns-column {
     padding: 0 8px;
 }
 
@@ -269,12 +275,13 @@ nav ul li a:hover {
     display: table;
     clear: both;
 }
-  
+
 .wmns-column {
     /* float: left; */
     display: inline-block;
     width: 13%;
 }
+
 /* Backgroundas */
 .modal {
     display: none;
@@ -289,7 +296,7 @@ nav ul li a:hover {
     background-color: #B1A29D;
     border-collapse: separate;
     border-radius: 20px;
-  }
+}
 
 .modal-content {
     position: relative;
@@ -302,8 +309,10 @@ nav ul li a:hover {
     border: 4px solid #FFFFFF;
     box-shadow: 0px 12px 54px rgba(78, 69, 62, 0.27);
     border-radius: 30px;
-    border-collapse: separate;;
+    border-collapse: separate;
+    ;
 }
+
 .close {
     color: white;
     position: absolute;
@@ -315,14 +324,14 @@ nav ul li a:hover {
 
 .close:hover,
 .close:focus {
-  color: #999;
-  text-decoration: none;
-  cursor: pointer;
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .mySlides {
     display: none;
-  }
+}
 
 .cursor {
     cursor: pointer;
@@ -331,70 +340,233 @@ nav ul li a:hover {
 /* Next ir previous buttons */
 .prev,
 .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -50px;
-  color: #fff;
-  font-weight: bold;
-  font-size: 50px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-  -webkit-user-select: none;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 50px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
 }
 
 /* Position the "next button" to the right */
 .next {
     right: 0;
     border-radius: 3px 0 0 3px;
-  }
-  
-  /* On hover, add a black background color with a little bit see-through */
-  .prev:hover,
-  .next:hover {
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
     background-color: rgba(0, 0, 0, 0.8);
-  }
-  
-  /* Number text (1/3 etc) */
-  .numbertext {
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
     color: #fff;
     font-size: 30px;
     padding: 8px 12px;
     position: absolute;
     top: 0;
-  }
+}
 
-  .caption-container {
+.caption-container {
     text-align: center;
     background-color: #E4DFDC;
     padding: 2px 16px;
     color: black;
     font-style: inherit;
     border-radius: 30px;
-  }
+}
 
-  .wmns-demo {
+.wmns-demo {
     opacity: 0.6;
-    
-  }
-  
-  .active,
-  .wmns-demo:hover {
-    opacity: 1;
-  }
 
-  img.hover-shadow {
+}
+
+.active,
+.wmns-demo:hover {
+    opacity: 1;
+}
+
+img.hover-shadow {
     transition: 0.3s;
-    
-  }
-  
-  .hover-shadow:hover{
+
+}
+
+.hover-shadow:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    background-color:white;
+    background-color: white;
     border-radius: 6px;
     transform: scale(1.2);
     transition: all .5s;
-  }
+}
+
+/* Air Max  */
+
+.wmns-second-text h2{
+    text-align: left;
+    font-size: 72px;
+    font-weight: bold;
+    font-style:'Inter', sans-serif;
+}
+
+.wmns-second-text p {
+    margin-top: 10px;
+    text-align: left;
+    opacity: 0.8;
+}
+
+.wmns-second-text {
+    width: 45%;
+    margin-left: 3%;
+}
+
+.store-second-shoe img {
+    position: absolute;
+    transform: rotate(-31deg);
+    width: 48%;
+    margin-left: -180px;
+    margin-top: -25px
+}
+
+/* Yeezy Weezy */
+
+.wmns-third-text h2{
+    text-align: left;
+    font-size: 72px;
+    font-weight: bold;
+    font-style:'Inter', sans-serif;
+}
+
+.wmns-third-text p {
+    margin-top: 10px;
+    text-align: left;
+    opacity: 0.8;
+}
+
+.wmns-third-text {
+    width: 45%;
+    margin-left: 3%;
+}
+
+.store-third-shoe img {
+    position: absolute;
+    transform: rotate(-31deg);
+    width: 48%;
+    margin-left: -180px;
+    margin-top: -25px
+}
+
+/* Articles */
+
+.first-blog {
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+
+.first-blog-img {
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+}
+
+.first-blog-photo {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    background-image: url('../images/blog/donda.jpg');
+    background-position: center;
+    background-size: cover;
+    transition: 1.2s;
+}
+
+.first-blog a:hover .first-blog-photo {
+    transform: scale(1.1);
+}
+
+.first-blog a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.8);
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.first-blog-text {
+    width: 100%;
+    height: 100%;
+}
+
+.first-blog-text h2{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.first-blog-text p{
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+/* second blog */
+
+.second-blog-photo {
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/blog/concepts-nike-air-max-1.jpg');
+    background-position: center;
+    background-size: cover;
+    transition: 1.2s;
+}
+
+.second-blog-img {
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+}
+
+.second-blog {
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.second-blog a:hover .second-blog-photo {
+    transform: scale(1.1);
+}
+
+.second-blog a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.8);
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+}
+
+.second-blog-text h2{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.second-blog-text p{
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.second-blog-text {
+    width: 100%;
+    height: 100%;
+}
+
+.blog-flex-container {
+    display:flex;
+    justify-content: space-between;
+}
