@@ -570,3 +570,33 @@ img.hover-shadow {
     display:flex;
     justify-content: space-between;
 }
+
+/* About us */
+.about-flex-container {
+    display:flex;
+}
+
+.empty-block-about {
+    width: 50%;
+    margin-top: 10px;
+}
+
+.about-text {
+    font-size: 42px;
+    text-align: center;
+    position: relative;
+    letter-spacing: -0.03em;
+    border-bottom: 0.1em solid;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.about-us {
+    margin-top: 15%;
+    width: 50%;
+    margin-right: 10px;
+}
+
+.about-us p {
+    text-align: justify;
+}
