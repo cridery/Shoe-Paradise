@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: url(/images/design/body-final.png);
+    background-image:url('../images/design/body-final.png');
 }
 
 html {
